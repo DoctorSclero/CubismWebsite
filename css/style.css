@@ -263,9 +263,6 @@ p, li, a, span {
   padding: 3em;
   max-height: 100vh;
 }
-.slide8 p, .slide8 li {
-  font-size: 1.5em;
-}
 .slide8 .content {
   max-height: 100vh;
   display: grid;
