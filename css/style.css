@@ -1,0 +1,481 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Zilla Slab", serif;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0.5em;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+ul {
+  padding-left: 5em;
+}
+
+li {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding: 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+p, li, a, span {
+  font-size: 2.2rem;
+  padding: 0.5em;
+}
+
+.slide {
+  background: url("/src/slide_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: grid;
+}
+
+.slide0 {
+  background: url("/src/picasso_cubism.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.slide0 .content {
+  text-align: center;
+  background-color: aliceblue;
+  padding: 2em;
+}
+.slide0 .content h1 {
+  text-align: center;
+}
+.slide0 .content h1 img {
+  width: 40%;
+}
+
+.slide1 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide1 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide1 .content .header {
+  grid-column: 1/3;
+}
+.slide1 .content .images {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+}
+.slide1 .content .images .img-1 {
+  background-image: url("/src/1683833039839.jpg");
+  background-size: cover;
+}
+.slide1 .content .images .img-2 {
+  background-image: url("/src/montagne_seinte_victoire.png");
+  background-size: cover;
+}
+
+.slide2 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide2 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide2 .content .header {
+  grid-column: 1/3;
+}
+.slide2 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide2 .content .images .img-1 {
+  background-image: url("/src/undraw_New_ideas_re_asn4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide3 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide3 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide3 .content .header {
+  grid-column: 1/3;
+}
+.slide3 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide3 .content .images .img-1 {
+  background-image: url("/src/licensed-image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide4 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide4 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide4 .content .header {
+  grid-column: 1/3;
+}
+.slide4 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide4 .content .images .img-1 {
+  background-image: url("/src/Cézanne_au_chapeau_melon,_par_Paul_Cézanne,_esquisse,_York.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide5 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide5 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide5 .content .header {
+  grid-column: 1/3;
+}
+.slide5 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide5 .content .images .img-1 {
+  background-image: url("/src/Cézanne_au_chapeau_melon,_par_Paul_Cézanne,_esquisse,_York.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide6 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide6 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide6 .content .header {
+  grid-column: 1/3;
+}
+.slide6 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide6 .content .images .img-1 {
+  background-image: url("/src/collages.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide7 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide7 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide7 .content .header {
+  grid-column: 1/3;
+}
+.slide7 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide7 .content .images .img-1 {
+  background-image: url("/src/pablo_picasso.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide8 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide8 p, .slide8 li {
+  font-size: 1.5em;
+}
+.slide8 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide8 .content .header {
+  grid-column: 1/3;
+}
+.slide8 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide8 .content .images .img-1 {
+  background-image: url("/src/pablo_picasso.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slide10 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide10 p, .slide10 li {
+  font-size: 1.5em;
+}
+.slide10 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide10 .content .header {
+  grid-column: 1/4;
+}
+.slide10 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide10 .content .images .img-1 {
+  background-image: url("/src/poveri.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slide11 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide11 p, .slide11 li {
+  font-size: 1.5em;
+}
+.slide11 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide11 .content .header {
+  grid-column: 1/4;
+}
+.slide11 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide11 .content .images .img-1 {
+  background-image: url("/src/FB_IMG_1649849726905.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slide12 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide12 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide12 .content .header {
+  grid-column: 1/3;
+}
+.slide12 .content .article {
+  grid-column: 1/3;
+}
+.slide12 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide12 .content .images .img-1 {
+  background-image: url("/src/FB_IMG_1649849726905.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slide13 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide13 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide13 .content .header {
+  grid-column: 1/3;
+}
+.slide13 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide13 .content .images .img-1 {
+  background-image: url("/src/Les_Demoiselles_d'Avignon.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slide14 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide14 p, .slide14 li {
+  font-size: 1.5em;
+}
+.slide14 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide14 .content .header {
+  grid-column: 1/3;
+}
+.slide14 .content .images {
+  height: 100%;
+  display: grid;
+  padding: 1em;
+}
+.slide14 .content .images .img-1 {
+  background-image: url("/src/guernica.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slide16 {
+  padding: 3em;
+  max-height: 100vh;
+}
+.slide16 .content {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  gap: 3em;
+}
+.slide16 .content .header {
+  grid-column: 1/4;
+}
+.slide16 .content .img-1 {
+  background-image: url("/src/meme1.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.slide16 .content .img-2 {
+  background-image: url("/src/IMG_20230512_034457.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.slide16 .content .img-3 {
+  background-image: url("/src/IMG_20230512_034512.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.slide15 {
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  padding: 1em;
+  background-color: white;
+}
+
+.credits {
+  font-style: oblique;
+}
+
+/*# sourceMappingURL=style.css.map */

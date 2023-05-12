@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zilla Slab', serif;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: .5em;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+ul {
+    padding-left: 5em;
+}
+
+li {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding: 0;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+p, li, a, span {
+    font-size: 2.2rem;
+    padding: .5em;
+}
+
+.slide {
+    background: url("/src/slide_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: grid;
+}
+
+.slide0 {
+    // Ovverriding the default background
+    background: url("/src/picasso_cubism.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    align-items: center;
+
+    .content {
+        text-align: center;
+        background-color: aliceblue;
+        padding: 2em;
+
+        h1 {
+            text-align: center;
+            img {
+                width: 40%;
+            }
+        }
+
+    }
+}
+
+.slide1 {
+
+    padding: 3em;
+
+    max-height: 100vh;
+
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            
+            gap: 1em;
+
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/1683833039839.jpg");
+                background-size: cover;
+            }
+
+            .img-2 {
+                background-image: url("/src/montagne_seinte_victoire.png");
+                background-size: cover;
+            }
+        }
+    }
+}
+
+.slide2 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/undraw_New_ideas_re_asn4.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+
+.slide3 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/licensed-image.jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+.slide4 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/Cézanne_au_chapeau_melon\,_par_Paul_Cézanne\,_esquisse\,_York.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+.slide5 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/Cézanne_au_chapeau_melon\,_par_Paul_Cézanne\,_esquisse\,_York.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+.slide6 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/collages.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+.slide7 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/pablo_picasso.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+.slide8 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+    p, li {
+        font-size: 1.5em;
+    }
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/pablo_picasso.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    }
+}
+
+.slide10 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+    p, li {
+        font-size: 1.5em;
+    }
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 4;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/poveri.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: left;
+            }
+        }
+    }
+}
+
+.slide11 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+    p, li {
+        font-size: 1.5em;
+    }
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 4;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/FB_IMG_1649849726905.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left;
+            }
+        }
+    }
+}
+
+.slide12 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+    
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .article {
+            grid-column: 1/3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/FB_IMG_1649849726905.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left;
+            }
+        }
+    }
+}
+
+
+.slide13 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+    
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/Les_Demoiselles_d\'Avignon.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: left;
+            }
+        }
+    }
+}
+
+.slide14 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+    p, li {
+        font-size: 1.5em;
+    }
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 3;
+        }
+
+
+        .images {
+            height: 100%;
+            
+            display: grid;
+            padding: 1em;
+
+            .img-1 {
+                background-image: url("/src/guernica.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: left;
+            }
+        }
+    }
+}
+
+.slide16 {
+    padding: 3em;
+
+    max-height: 100vh;
+
+   
+
+    .content {
+        max-height: 100vh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: min-content 1fr;
+
+        gap: 3em;
+        
+        .header {
+            grid-column: 1 / 4;
+        }
+
+        .img-1 {
+            background-image: url("/src/meme1.jpeg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+
+        .img-2 {
+            background-image: url("/src/IMG_20230512_034457.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+
+        .img-3 {
+            background-image: url("/src/IMG_20230512_034512.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+    }
+}
+
+.slide15 {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    padding: 1em;
+    background-color: white;
+}
+.credits {
+    font-style: oblique;
+}
