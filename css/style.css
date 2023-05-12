@@ -49,7 +49,7 @@ p, li, a, span {
 }
 
 .slide {
-  background: url("/src/slide_background.jpg");
+  background: url("./src/slide_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -57,7 +57,7 @@ p, li, a, span {
 }
 
 .slide0 {
-  background: url("/src/picasso_cubism.jpg");
+  background: url("./src/picasso_cubism.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -95,11 +95,11 @@ p, li, a, span {
   padding: 1em;
 }
 .slide1 .content .images .img-1 {
-  background-image: url("/src/1683833039839.jpg");
+  background-image: url("./src/1683833039839.jpg");
   background-size: cover;
 }
 .slide1 .content .images .img-2 {
-  background-image: url("/src/montagne_seinte_victoire.png");
+  background-image: url("./src/montagne_seinte_victoire.png");
   background-size: cover;
 }
 
@@ -123,7 +123,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide2 .content .images .img-1 {
-  background-image: url("/src/undraw_New_ideas_re_asn4.png");
+  background-image: url("./src/undraw_New_ideas_re_asn4.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -149,7 +149,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide3 .content .images .img-1 {
-  background-image: url("/src/licensed-image.jpeg");
+  background-image: url("./src/licensed-image.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -175,7 +175,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide4 .content .images .img-1 {
-  background-image: url("/src/Cézanne_au_chapeau_melon,_par_Paul_Cézanne,_esquisse,_York.jpg");
+  background-image: url("./src/Cézanne_au_chapeau_melon,_par_Paul_Cézanne,_esquisse,_York.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -201,7 +201,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide5 .content .images .img-1 {
-  background-image: url("/src/Cézanne_au_chapeau_melon,_par_Paul_Cézanne,_esquisse,_York.jpg");
+  background-image: url("./src/Cézanne_au_chapeau_melon,_par_Paul_Cézanne,_esquisse,_York.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -227,7 +227,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide6 .content .images .img-1 {
-  background-image: url("/src/collages.jpg");
+  background-image: url("./src/collages.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -253,7 +253,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide7 .content .images .img-1 {
-  background-image: url("/src/pablo_picasso.jpg");
+  background-image: url("./src/pablo_picasso.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -282,7 +282,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide8 .content .images .img-1 {
-  background-image: url("/src/pablo_picasso.jpg");
+  background-image: url("./src/pablo_picasso.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -311,7 +311,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide10 .content .images .img-1 {
-  background-image: url("/src/poveri.jpg");
+  background-image: url("./src/poveri.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -340,7 +340,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide11 .content .images .img-1 {
-  background-image: url("/src/FB_IMG_1649849726905.jpg");
+  background-image: url("./src/FB_IMG_1649849726905.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -369,7 +369,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide12 .content .images .img-1 {
-  background-image: url("/src/FB_IMG_1649849726905.jpg");
+  background-image: url("./src/FB_IMG_1649849726905.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -395,7 +395,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide13 .content .images .img-1 {
-  background-image: url("/src/Les_Demoiselles_d'Avignon.jpg");
+  background-image: url("./src/Les_Demoiselles_d'Avignon.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -424,7 +424,7 @@ p, li, a, span {
   padding: 1em;
 }
 .slide14 .content .images .img-1 {
-  background-image: url("/src/guernica.jpg");
+  background-image: url("./src/guernica.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
@@ -445,19 +445,19 @@ p, li, a, span {
   grid-column: 1/4;
 }
 .slide16 .content .img-1 {
-  background-image: url("/src/meme1.jpeg");
+  background-image: url("./src/meme1.jpeg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
 }
 .slide16 .content .img-2 {
-  background-image: url("/src/IMG_20230512_034457.jpg");
+  background-image: url("./src/IMG_20230512_034457.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
 }
 .slide16 .content .img-3 {
-  background-image: url("/src/IMG_20230512_034512.jpg");
+  background-image: url("./src/IMG_20230512_034512.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
